@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
+  "name": "@ckeditor/ckeditor5-build-template-editor",
   "version": "12.2.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
@@ -25,22 +25,19 @@
     "build"
   ],
   "devDependencies": {
-    "@ckeditor/ckeditor5-adapter-ckfinder": "^11.0.2",
+    "@ckeditor/ckeditor5-alignment": "^11.1.1",
     "@ckeditor/ckeditor5-autoformat": "^11.0.2",
     "@ckeditor/ckeditor5-basic-styles": "^11.1.1",
-    "@ckeditor/ckeditor5-block-quote": "^11.1.0",
-    "@ckeditor/ckeditor5-ckfinder": "^11.0.2",
     "@ckeditor/ckeditor5-core": "^12.1.1",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.0",
-    "@ckeditor/ckeditor5-easy-image": "^11.0.2",
     "@ckeditor/ckeditor5-editor-classic": "^12.1.1",
     "@ckeditor/ckeditor5-essentials": "^11.0.2",
+    "@ckeditor/ckeditor5-font": "^11.1.1",
     "@ckeditor/ckeditor5-heading": "^11.0.2",
     "@ckeditor/ckeditor5-image": "^13.1.0",
     "@ckeditor/ckeditor5-link": "^11.0.2",
     "@ckeditor/ckeditor5-list": "^12.0.2",
-    "@ckeditor/ckeditor5-media-embed": "^11.1.1",
     "@ckeditor/ckeditor5-paragraph": "^11.0.2",
     "@ckeditor/ckeditor5-paste-from-office": "^11.0.2",
     "@ckeditor/ckeditor5-table": "^13.0.0",
@@ -81,10 +78,5 @@
   "eslintIgnore": [
     "build/**",
     "packages/**"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  }
+  ]
 }
